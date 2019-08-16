@@ -6,14 +6,14 @@ class AccessBlock {
      @class AccessBlock
      @summary Access block
      @param {Object} options - Supplied configuration
-     @param {String} [options.id="<Default value is null>"] Id attribute of chrome, also is used as prefix for inner elements ids
-     @param {String|HTMLElement} [options.focusAfterClose="<Default value is null>"] Selector string or node, that will be focused after AccessBlock is closed
+     @param {String} [options.id=**null**] Id attribute of chrome, also is used as prefix for inner elements ids
+     @param {String|HTMLElement} [options.focusAfterClose=**null**] Selector string or node, that will be focused after AccessBlock is closed
      @param {String} [options.role="alertdialog"] Role attribute of chrome
      @param {Number} [options.overlayOpacity=0.8] Opacity of overlay element
      @param {Number} [options.zIndex=100] Z-index of overlay element
      @param {Boolean} [options.writeInlineStyles=true] Will apply all inline styles if true
      @param {Number} [options.defaultAnimationTime=2] Default loader image animation duration, in seconds
-     @param {String} [options.imageSrc="<Default value is null>"] Src of loader image src attribute
+     @param {String} [options.imageSrc=**null**] Src of loader image src attribute
      @param {Object} [options.cssClassMap] - User supplied class for elements
      @param {String} [options.cssClassMap.chrome="access-block"] - Chrome (main) element
      @param {String} [options.cssClassMap.overlay="access-block-overlay"] - Overlay element
